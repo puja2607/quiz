@@ -1,0 +1,229 @@
+body{
+        background-image: URL('c.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.screen{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#start{
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#s1h{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 80px;
+   
+}
+
+#sb{
+    padding: 12px 24px;        
+  background-color: #424242;
+  color: white;              
+  
+  border-radius: 8px;        
+  font-size: 20px;    
+  font-weight: bold;       
+  cursor: pointer;  
+   position: relative;
+  top: 80px;
+  
+}
+
+#quiz{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#quiz-Header{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#question{
+    
+    margin-top: 7%;
+   margin-left: 5%;
+   margin-right: 5%;
+  color: black;                 
+  font-size: 38px;    
+  font-weight: bold;       
+}
+
+.option{
+   
+  display: block;
+      margin: 6px 0;
+      text-align: left;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #222;
+      margin-left:  18%;
+      margin-top: 2%;
+}
+
+
+#control{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    }
+
+#prev-b{
+    background-color: #424242;
+    padding: 12px 24px; 
+
+    font-size: 20px; 
+    color: whitesmoke;              
+   border: solid; 
+   border-color: #333;   
+  font-weight: bold;       
+  cursor: pointer;  
+ position: relative;
+  margin-top: 12%;
+  width: 130px;
+
+}
+
+#next-b{
+    background-color: #424242;
+    padding: 12px 24px; 
+    font-size: 20px; 
+    color: whitesmoke;              
+   border: solid;   
+   border-color: #333; 
+  font-weight: bold;       
+  cursor: pointer;  
+ position: relative;
+  margin-top: 12%;
+  width: 130px;
+
+}
+
+#submit-b{
+    background-color: #cc67fa;
+    padding: 12px 24px; 
+    font-size: 20px; 
+    color: black;              
+   border: solid;    
+  font-weight: bold;       
+  cursor: pointer;  
+ position: relative;
+  margin-top: 12%;
+  width: 130px;
+}
+
+#result{
+    text-align: center;
+}
+
+
+#quizc{
+    position: relative;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 3%;
+    color: black;
+}
+
+#score{
+
+font-size: 35px;
+ font-weight: bold;
+  color: black;
+  margin-top: 5%;
+  margin: 20px auto;           
+  text-align: center; 
+}
+
+#answers{
+  
+  margin: 15px 0;
+  margin-left: 5%;
+  
+}
+
+#answers p {
+  margin: 6px 0;
+  font-size: 22px;
+}
+
+#answer b {
+  color: #333;
+}
+
+#restart-b{
+    padding: 12px 24px;        
+  background-color: #424242; 
+  color: whitesmoke;              
+  border: solid;   
+  border-color: #222;            
+  border-radius: 8px;        
+  font-size: 16px;    
+  font-weight: bold;       
+  cursor: pointer;  
+  margin-top: 10%;
+   
+}
+
+#view-ans{
+  padding: 12px 24px;        
+  background-color: #424242; 
+  color: whitesmoke;              
+  border: solid;      
+  border-color: #222;        
+  border-radius: 8px;        
+  font-size: 16px;    
+  font-weight: bold;       
+  cursor: pointer;  
+   margin-top: 10%;
+}
+
+#ans-h{
+  position: relative;
+  text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 1%;
+    color: black;
+}
+
+#back-btn{
+  padding: 12px 24px;        
+  background-color: #424242; 
+  color: whitesmoke;              
+  border: solid;      
+  border-color: #222;        
+  border-radius: 8px;        
+  font-size: 16px;    
+  font-weight: bold;       
+  cursor: pointer;  
+  margin-left: 50%;
+}
